@@ -2,7 +2,9 @@
 
 This repository contains a SQL query that helps detect if users' credentials are accidentally stored in Okta audit logs. The SQL query matches failed login attempts with a password pattern to subsequent successful login attempts. The blog post that inspired this SQL code highlights the risk of inadvertently storing passwords due to user error when passwords are mistakenly entered into the username field. Attackers can then try to bypass MFA by reading the Okta audit logs from the SIEM product the organization uses. Users are encouraged to be mindful of their login credentials and to ensure that passwords are entered correctly in the right field.
 
-##### link to blogpost
+
+
+##### [link to blogpost](https://www.mitiga.io/blog/how-okta-passwords-can-be-compromised-uncovering-a-risk-to-user-data?trk=public_post_comment-text)
 
 
 ## SQL Query
